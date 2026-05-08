@@ -36,3 +36,16 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
+subprojects {
+    configurations.all {
+        resolutionStrategy.eachDependency {
+            if (
+                project.name == "flutter_bluetooth_serial" &&
+                requested.group == "androidx.core" &&
+                requested.name in setOf("core", "core-ktx")
+            ) {
+                useVersion("1.6.0")
+            }
+        }
+    }
+}
