@@ -56,6 +56,8 @@ class HomeScreen extends StatelessWidget {
                               BluetoothPanel(controller: controller),
                               const SizedBox(height: 14),
                               HistoryStatsPanel(controller: controller),
+                              SizedBox(height: 60,),
+                              Center(child: Text("© 2026 All Rights Reserved | Developed by Adham Kettana Ibrahim & Abdelrahman Mohamed" ,textAlign: TextAlign.center, style: TextStyle(color: Colors.grey[600]),))
                             ],
                           ),
                         ),

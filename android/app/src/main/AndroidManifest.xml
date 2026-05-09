@@ -9,9 +9,9 @@
 
     <uses-feature android:name="android.hardware.bluetooth" android:required="true"/>
     <application
-        android:label="Password Strength Car"
+        android:label="CipherDrive"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/logoicon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
