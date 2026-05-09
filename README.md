@@ -10,7 +10,7 @@ A complete Flutter Android + ESP32 smart car project. The Android app analyzes a
 - Last connected device storage with `shared_preferences`
 - Password history and strength statistics
 - Vibration and system click feedback when the strength level changes
-- ESP32 Arduino firmware for an L298N two-motor car
+- ESP32 Arduino firmware for an L298N four motors car
 - Wiring and setup notes
 - Optional BLE scaffold in `lib/services/ble_optional_service.dart`
 
